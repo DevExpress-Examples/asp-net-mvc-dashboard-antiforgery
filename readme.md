@@ -1,7 +1,7 @@
 <!-- default file list -->
 *Files to look at*:
 
-* [Startup.cs](./CS/AspNetCoreDashboardPreventCrossSiteRequestForgery/Startup.cs)
+* [Global.asax.cs](./CS/MVCxDashboardPreventCrossSiteRequestForgery/Global.asax.cs)
 <!-- default file list end -->
 # ASP.NET MVC Dashboard - How to Prevent Cross-Site Request Forgery (CSRF) Attacks
 

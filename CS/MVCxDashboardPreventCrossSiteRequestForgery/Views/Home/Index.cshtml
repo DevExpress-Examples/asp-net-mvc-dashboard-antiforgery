@@ -1,0 +1,17 @@
+<script type="text/javascript">
+    function onBeforeRender(sender) {
+        var control = sender.GetDashboardControl();
+        control.option('ajaxRemoteService.headers', { "__RequestVerificationToken": document.querySelector('input[name=__RequestVerificationToken]').value })
+    }
+</script>
+
+
+@Html.AntiForgeryToken()
+@Html.DevExpress().Dashboard(settings =>
+{
+    settings.Name = "Dashboard";
+    settings.Width = Unit.Percentage(100);
+    settings.Height = Unit.Percentage(100);
+    settings.ClientSideEvents.BeforeRender = "onBeforeRender";
+    settings.ControllerName = "CustomDashboard";
+}).GetHtml()
