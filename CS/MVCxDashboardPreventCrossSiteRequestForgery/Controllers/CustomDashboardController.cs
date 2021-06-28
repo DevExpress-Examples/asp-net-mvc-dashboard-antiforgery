@@ -6,21 +6,14 @@ using System.Web;
 using System.Web.Helpers;
 using System.Web.Mvc;
 
-namespace MVCxDashboardPreventCrossSiteRequestForgery.Controllers
-{
+namespace MVCxDashboardPreventCrossSiteRequestForgery.Controllers {
     [DashboardValidateAntiForgeryTokenAttribute]
-    public class CustomDashboardController : DashboardController
-    {
-        
+    public class CustomDashboardController : DashboardController {        
     }
 
-
-    public sealed class DashboardValidateAntiForgeryTokenAttribute : FilterAttribute, IAuthorizationFilter
-    {
-        public void OnAuthorization(AuthorizationContext filterContext)
-        {
-            if (filterContext == null)
-            {
+    public sealed class DashboardValidateAntiForgeryTokenAttribute : FilterAttribute, IAuthorizationFilter {
+        public void OnAuthorization(AuthorizationContext filterContext) {
+            if (filterContext == null) {
                 throw new ArgumentNullException(nameof(filterContext));
             }
 
