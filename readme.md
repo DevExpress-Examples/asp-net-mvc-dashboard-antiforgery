@@ -33,9 +33,8 @@ routes.MapDashboardRoute("dashboardControl", "CustomDashboard", new string[] { "
 3. Specify the controller name in the Web Dashboard settings.
 
 ```razor
-@Html.DevExpress().Dashboard(settings =>
-{
-   ....
+@Html.DevExpress().Dashboard(settings => {
+    ...
     settings.ControllerName = "CustomDashboard";
 }).GetHtml()
 ```
@@ -91,9 +90,8 @@ public class CustomDashboardController : DashboardController {
 
 ...
 @Html.DevExpress().Dashboard(settings => {
-	...
+    ...
     settings.ClientSideEvents.BeforeRender = "onBeforeRender";
-
 }).GetHtml()
 ```
 
