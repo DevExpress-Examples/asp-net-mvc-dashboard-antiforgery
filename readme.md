@@ -25,7 +25,7 @@ namespace MVCxDashboardPreventCrossSiteRequestForgery.Controllers {
 }
 ```
 
-2. Change a default dashboard route to use the created controller.
+2. Change the default dashboard route to use the created controller.
 
 ```cs
 routes.MapDashboardRoute("dashboardControl", "CustomDashboard", new string[] { "MVCxDashboardPreventCrossSiteRequestForgery.Controllers" });
