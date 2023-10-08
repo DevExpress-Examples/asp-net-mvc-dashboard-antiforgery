@@ -8,13 +8,11 @@
 
 The following example shows how to apply antiforgery request validation to the ASP.NET MVC Dashboard control.
 
-<!-- default file list -->
-## Files to Look At
+## Files to Review
 
 * [Global.asax.cs](./CS/MVCxDashboardPreventCrossSiteRequestForgery/Global.asax.cs)
 * [Index.cshtml](./CS/MVCxDashboardPreventCrossSiteRequestForgery/Views/Home/Index.cshtml)
 * [CustomDashboardController.cs](./CS/MVCxDashboardPreventCrossSiteRequestForgery/Controllers/CustomDashboardController.cs)
-<!-- default file list end -->
 
 ## Example Overview
 
