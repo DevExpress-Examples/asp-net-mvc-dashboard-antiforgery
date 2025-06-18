@@ -105,7 +105,7 @@ public class CustomDashboardController : DashboardController {
 
 - [Web Dashboard - Security Considerations](https://docs.devexpress.com/Dashboard/118651/web-dashboard/general-information/security-considerations)
 - [CA3147: Mark verb handlers with ValidateAntiForgeryToken](https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca3147)
-- [ASP.NET MVC Security Best Practices - Preventing Cross-Site Request Forgery (CSRF)](https://github.com/DevExpress/aspnet-security-bestpractices/tree/master/SecurityBestPractices.Mvc#4-preventing-cross-site-request-forgery-csrf)
+- [ASP.NET MVC Security Best Practices - Preventing Cross-Site Request Forgery (CSRF)](https://docs.devexpress.com/AspNetMvc/405006/security-considerations/prevent-csrf)
 
 
 ## More Examples
